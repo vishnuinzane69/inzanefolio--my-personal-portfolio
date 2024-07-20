@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/src/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'Borel';
+  src: url('/src/fonts/Borel-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/src/fonts/Poppins-Regular.ttf');
+}
+:root {
+  --font-primary : "Montserrat";
+  --font-secondary : "Poppins";
+  --color-primary : #000000;
+  --color-secondary : #DBE2EF;
+}
+
+body {
+  font-family: var(--font-primary);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  margin: 0;
+  /* cursor: none; */
+  overflow: hidden;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    cursor: default;
+  }
+}

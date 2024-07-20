@@ -1,0 +1,9 @@
+@keyframes pointer {
+    0% {
+        scale: 100%;
+    }
+    100% {
+        scale: 150%;
+    }
+}
+  

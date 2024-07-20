@@ -1,0 +1,11 @@
+#about-section {
+    animation: fadeOut 1s ease-out;
+}
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
