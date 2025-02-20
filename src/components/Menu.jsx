@@ -1,3 +1,4 @@
+import Resume from '../assets/pdf/Vishnu AS  Resume.pdf'
 import Resume from '../assets/pdf/Vishnu AS Resume.pdf'
 
 function Menu(props) {
